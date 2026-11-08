@@ -15,3 +15,13 @@
 
 ---
 > 💡 **Tip:** Solite.New is designed to be lightweight yet powerful, providing you with the best experience possible.
+---
+
+### Meanings of Colors
+> 🟩 - Stable
+> 🟨 - Unstable
+> 🟥 - Needs fixing 
+
+### Game Supported
+> [🟩] Funky Duels
+> [🟩] Blockermans Minesweeper
