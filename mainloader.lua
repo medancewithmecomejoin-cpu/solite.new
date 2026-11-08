@@ -13,11 +13,10 @@ local placeScripts = {
     
 }
 local currentPlaceId = game.PlaceId
-print("Current Place ID: " .. tostring(currentPlaceId))
+print("Solite Found Script: " .. tostring(currentPlaceId))
 if placeScripts[currentPlaceId] then
     print("Place ID detected! Executing associated script...")
     placeScripts[currentPlaceId]()
 else
-    print("Place ID not recognized! Kicking player...")
     localPlayer:Kick("NOT FOUND: Solite.new is not authorized to run in this place (Place ID: " .. tostring(currentPlaceId) .. ")")
 end
