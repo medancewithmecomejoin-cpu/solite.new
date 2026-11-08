@@ -92,7 +92,7 @@ end
 -- WINDOW
 -- ─────────────────────────────────────────────────────────
 local Window = WindUI:CreateWindow({
-    Title = "Blockerman Minesweeper | Solver",
+    Title = "Solite.new| Minesweeper Solver",
     Folder = "BlockerMinesweeper",
     Icon = "solar:folder-2-bold-duotone",
     NewElements = true,
@@ -117,7 +117,7 @@ local Window = WindUI:CreateWindow({
 })
 
 Window:Tag({
-    Title = "Minesweeper Solver",
+    Title = "v1",
     Icon = "github",
     Color = Color3.fromHex("#1c1c1c"),
     Border = true,
@@ -1176,8 +1176,8 @@ local ok, err = pcall(function()
         return r * 65536 + g * 256 + b
     end
 
-    local GREEN_KEYS = { [MakeKey(117, 205, 100)] = true, [MakeKey(103, 180, 88)] = true }
-    local BEIGE_KEYS = { [MakeKey(255, 255, 125)] = true, [MakeKey(230, 230, 113)] = true }
+    local GREEN_KEYS  = { [MakeKey(205,142,100)] = true, [MakeKey(180,125,88)] = true }
+local BEIGE_KEYS  = { [MakeKey(255,255,125)] = true, [MakeKey(230,230,113)] = true }
 
     -- ─── PART POOL ──────────────────────────────────────
     local Pool = {}
