@@ -6,6 +6,10 @@ local placeScripts = {
     [120511427220580] = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/medancewithmecomejoin-cpu/solite.new/refs/heads/main/solite-funkyduels"))()
     end,
+
+    [7871169780] = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/medancewithmecomejoin-cpu/solite.new/refs/heads/main/solite'sminesweeper"))()
+    end,
     
 }
 local currentPlaceId = game.PlaceId
