@@ -1,0 +1,19 @@
+-- try to skid - Much love, Damen.
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+local placeScripts = {
+    [120511427220580] = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/medancewithmecomejoin-cpu/solite.new/refs/heads/main/solite-funkyduels"))()
+    end,
+    
+}
+local currentPlaceId = game.PlaceId
+print("Current Place ID: " .. tostring(currentPlaceId))
+if placeScripts[currentPlaceId] then
+    print("Place ID detected! Executing associated script...")
+    placeScripts[currentPlaceId]()
+else
+    print("Place ID not recognized! Kicking player...")
+    localPlayer:Kick("NOT FOUND: Solite.new is not authorized to run in this place (Place ID: " .. tostring(currentPlaceId) .. ")")
+end
